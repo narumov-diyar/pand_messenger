@@ -1,0 +1,37 @@
+# Compiles and build
+*.o
+*.so
+*.a
+*.out
+*.exe
+*.dll
+
+# Debug
+*.dSYM/
+*.dmp
+
+# CMake and make
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ide and editors files
+.vscode/
+.idea/
+*.code-workspace
+
+# Hidden files
+*~
+*.swp
+*.swo
+
+# tmp and logs
+*.log
+*.tmp
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
