@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -Wall -I include
 
-SRC = src/client.cpp src/errors.cpp
+SRC = src/client.cpp src/errors.cpp src/general_funcs.cpp 
 
 BIN_DIR = build
 BIN = $(BIN_DIR)/app
